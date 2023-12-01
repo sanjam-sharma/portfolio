@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.first{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 10px;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: #a1a641;
+    transition: 1s;
+
+}
+
+span{
+    color: #a1a641;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: #a1a641;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+color: black;
+transition: 2s;
+border-bottom:1px solid #a1a641;
+
+}
+
+
+.second{
+    position: absolute;
+    left: 42%;
+    top: 35%;
+}
+
+.second h1{
+    font-size: 40px;
+}
+
+.second h4{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.second h3{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.second img{
+    position: absolute;
+    border: 2px #5a6794;
+    left: 102%;
+    /* width: 300px;
+    height: 330px; */
+    bottom: -70%;
+    top: -159%;
+
+}
+
+.second img{
+border-radius:50%;
+box-shadow:  1px 2px 18px grey;
+
+}
+
+section{
+    background-image: url(img/alex-padurariu-tXYg4Zx7kSU-unsplash.jpg);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.third{
+    position: absolute;
+        left: 36%;
+    padding-top: 7%;
+}
+
+.third h2{
+    color: #a1a641;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.third h5{
+    color: #e3e4e5;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.third p{
+    color: #e3e4e5;
+    font-size: 20px;
+}
+
+
+.third2 button{
+    background-color:  #a1a641;
+ color: white;
+ border: 2px solid transparent;
+ font-weight: 300;
+ padding: 13px 30px;
+ border-radius: 30px;
+ margin-top: 510px;
+ float: right;
+ margin-left: 250px;
+ margin-right: 100px;
+}
+
+button:hover{
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.fourth{
+    background: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #a1a641;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 380px;
+    width: 340px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 1px 2px 6px #a1a641;
+}
+
+.card i{
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    color: #a1a641;
+    margin: 25px 0px;
+}
+
+.card h5{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #ffffff;
+   font-size: 15px;
+   line-height: 20px;
+   margin-bottom: 25px;
+}
+
+.card .button{
+background-color:  #a1a641;
+ color: white;
+ border: 2px solid transparent;
+ font-weight: 300;
+ padding: 13px 30px;
+ border-radius: 20px;
+ transition: 3s;
+ margin-bottom: 15px;
+ text-decoration: none;
+}
+
+.card .button:hover{
+    color: rgb(22, 22, 22);
+    transition: 2s;
+}
+
+.fifth{
+    width: 100%;
+    height: 200px;
+   background-color: #191919;
+   
+}
+
+.fifth{
+   text-align: center;
+}
+
+.fifth .line{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    padding: 40px 20px;
+}
+
+.fifth .button-2{
+    background-color:  #a1a641;
+ color: white;
+ border: 2px solid transparent;
+ font-weight: 300;
+ padding: 13px 30px;
+ border-radius: 20px;
+ transition: 2s;
+ margin-bottom: 15px;
+ text-decoration: none;
+}
+
+.fifth .button-2:hover{
+    color: #191919;
+
+}
+
+/* footer part */
+footer{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer h2{
+    text-align: center; 
+    text-decoration: underline;
+}
+
+footer .add h3{
+    color: #a1a641;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 10px;
+
+
+}
+footer .add p{
+    color: white;
+    font-size: 20px;
+
+}
+footer .link{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 20px;
+    }
+
+    .link i{
+    margin-left: 30px; 
+    cursor: pointer;
+    color:#a1a641;
+    font-size: 20px;
+    }
+footer .link a{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transform: 0.1px;
+    margin-top: 60px;
+
+}
+.link i:hover{
+   box-sizing: border-box;
+   border-radius: 10px;
+    transform: .5s;
+    transform: rotate(30deg);
+    font-size: 30PX;
+    color: rgb(246, 247, 248);
+}
